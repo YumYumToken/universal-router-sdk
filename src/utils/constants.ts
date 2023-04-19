@@ -25,7 +25,7 @@ export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
     case 56: // binance smart chain
       return '0x5Dc88340E1c5c6366864Ee415d6034cadd1A9897'
     case 84531: // base goerli
-      return '0xFFb9546073229C24E5E47775F583Cebf7DC1A431'
+      return '0x61bED6387A4181E11962441608C27cCafe23280A'
     default:
       throw new Error(`Universal Router not deployed on chain ${chainId}`)
   }
