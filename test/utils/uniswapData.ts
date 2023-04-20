@@ -1,7 +1,7 @@
 import JSBI from 'jsbi'
 import { ethers } from 'ethers'
 import { MixedRouteTrade, MixedRouteSDK, Trade as RouterTrade } from '@yumyumswap/router-sdk'
-import { Trade as V2Trade, Pair, Route as RouteV2, computePairAddress } from '@uniswap/v2-sdk'
+import { Trade as V2Trade, Pair, Route as RouteV2, computePairAddress } from '@yumyumswap/v2-sdk'
 import {
   Trade as V3Trade,
   Pool,
@@ -12,7 +12,7 @@ import {
   FeeAmount,
 } from '@yumyumswap/swap-sdk'
 import { SwapOptions } from '../../src'
-import { CurrencyAmount, TradeType, Ether, Token, Percent, Currency } from '@uniswap/sdk-core'
+import { CurrencyAmount, TradeType, Ether, Token, Percent, Currency } from '@yumyumswap/sdk-core'
 import IYumyumSwapPool from '@yumyumswap/contract-core/artifacts/contracts/YumyumSwapPool.sol/YumyumSwapPool.json'
 import { TEST_RECIPIENT_ADDRESS } from './addresses'
 

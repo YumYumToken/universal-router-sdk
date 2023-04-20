@@ -1,6 +1,6 @@
 import JSBI from 'jsbi'
 import { RoutePlanner, CommandType } from '../../utils/routerCommands'
-import { Trade as V2Trade, Pair } from '@uniswap/v2-sdk'
+import { Trade as V2Trade, Pair } from '@yumyumswap/v2-sdk'
 import { Trade as V3Trade, Pool, encodeRouteToPath } from '@yumyumswap/swap-sdk'
 import {
   Trade as RouterTrade,
@@ -17,7 +17,7 @@ import {
   partitionMixedRouteByProtocol,
 } from '@yumyumswap/router-sdk'
 import { Permit2Permit } from '../../utils/inputTokens'
-import { Currency, TradeType, CurrencyAmount, Percent } from '@uniswap/sdk-core'
+import { Currency, TradeType, CurrencyAmount, Percent } from '@yumyumswap/sdk-core'
 import { Command, RouterTradeType, TradeConfig } from '../Command'
 import { SENDER_AS_RECIPIENT, ROUTER_AS_RECIPIENT, CONTRACT_BALANCE } from '../../utils/constants'
 
