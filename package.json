@@ -1,6 +1,6 @@
 {
   "name": "@yumyumswap/universal-router-sdk",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -49,7 +49,7 @@
     "typescript": "^4.3.3"
   },
   "dependencies": {
-    "@yumyumswap/universal-router": "1.4.2",
+    "@yumyumswap/universal-router": "1.4.3",
     "@uniswap/permit2-sdk": "^1.2.0",
     "@yumyumswap/router-sdk": "^1.4.3",
     "@yumyumswap/sdk-core": "^3.1.0",

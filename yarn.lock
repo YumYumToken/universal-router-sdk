@@ -2271,10 +2271,10 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@yumyumswap/universal-router@1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router/-/universal-router-1.4.2.tgz#3dccb41445c3a823e657656d5dbcb475a98da9b1"
-  integrity sha512-J4r7+uNPHR8bko9Y3Koy2Bgd0tkz8GgvilK0r2NmLTv/r2oVGZUpE7rVBnJuri4CJX08ffQj2QiwAu1SdP6FaQ==
+"@yumyumswap/universal-router@1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router/-/universal-router-1.4.3.tgz#389cec49d979ac0536256188fb30783fb6a00c8b"
+  integrity sha512-ra3PZ8hqD2101bVpu36EhXD4npUrh7X2pdooaV9Cd/5YFfZNZP/5dxc5cDXZWOoOJ/uo2AeglAu/UMTkT6rljg==
   dependencies:
     "@openzeppelin/contracts" "4.7.0"
     "@uniswap/v2-core" "1.0.1"
