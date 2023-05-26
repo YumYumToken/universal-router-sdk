@@ -11,8 +11,9 @@ export async function generatePermitSignature(
   permit: PermitSingle,
   signer: Wallet,
   chainId: number,
-  permitAddress: string = PERMIT2_ADDRESS
+  permitAddress: string = ''
 ): Promise<string> {
+  if(permitAddress === '') permitAddress = PERMIT2_ADDRESS(chainId)
   const { domain, types, values } = AllowanceTransfer.getPermitData(permit, permitAddress, chainId)
   return await signer._signTypedData(domain, types, values)
 }
@@ -21,8 +22,9 @@ export async function generateEip2098PermitSignature(
   permit: PermitSingle,
   signer: Wallet,
   chainId: number,
-  permitAddress: string = PERMIT2_ADDRESS
+  permitAddress: string = ''
 ): Promise<string> {
+  if(permitAddress === '') permitAddress = PERMIT2_ADDRESS(chainId)
   const sig = await generatePermitSignature(permit, signer, chainId, permitAddress)
   const split = ethers.utils.splitSignature(sig)
   return split.compact

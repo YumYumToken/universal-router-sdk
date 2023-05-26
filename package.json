@@ -1,6 +1,6 @@
 {
   "name": "@yumyumswap/universal-router-sdk",
-  "version": "4.0.1",
+  "version": "4.0.4",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

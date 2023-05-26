@@ -6,6 +6,7 @@ import { encodePermit } from '../../src/utils/inputTokens'
 import { RoutePlanner } from '../../src/utils/routerCommands'
 import { USDC } from './uniswapData'
 import { generatePermitSignature, makePermit } from './permit2'
+import { PERMIT2_ADDRESS } from '../../src'
 
 const PERMIT_STRUCT =
   '((address token,uint160 amount,uint48 expiration,uint48 nonce) details, address spender, uint256 sigDeadline)'

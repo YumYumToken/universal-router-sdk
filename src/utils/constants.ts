@@ -62,10 +62,10 @@ export const WETH_ADDRESS = (chainId: number): string => {
   }
 }
 
-export const PERMIT2_ADDRESS = (chainId: number): string => {
+export const PERMIT2_ADDRESS = (chainId: number | undefined): string => {
   switch (chainId) {
     case 369: // pulse
-      return '0xA1077a294dDE1B09bB078844df40758a5D0f9a27'
+      return '0x6feb2EF9631649fE6e8B676D6c606410f2e1dbb7'
     default:
       return '0x000000000022D473030F116dDEE9F6B43aC78BA3'
   }
