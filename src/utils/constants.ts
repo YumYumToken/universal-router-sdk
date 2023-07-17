@@ -26,6 +26,8 @@ export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
       return '0x5Dc88340E1c5c6366864Ee415d6034cadd1A9897'
     case 84531: // base goerli
       return '0x61bED6387A4181E11962441608C27cCafe23280A'
+    case 8453: // base
+      return '0x508fDf90951c1a31FAA5dCd119f3b60E0e0E87fB'
     case 369: // pulse
       return '0xE5417A52d9535f0069058324958Bf4d89E2e38A1'
     default:
@@ -55,6 +57,8 @@ export const WETH_ADDRESS = (chainId: number): string => {
       return '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
     case 84531: // base goerli
       return '0x4200000000000000000000000000000000000006'
+    case 8453: // base
+      return '0x4200000000000000000000000000000000000006'
     case 369: // pulse
       return '0xA1077a294dDE1B09bB078844df40758a5D0f9a27'
     default:
@@ -65,6 +69,8 @@ export const WETH_ADDRESS = (chainId: number): string => {
 export const PERMIT2_ADDRESS = (chainId: number | undefined): string => {
   switch (chainId) {
     case 369: // pulse
+      return '0x6feb2EF9631649fE6e8B676D6c606410f2e1dbb7'
+    case 8453: // base
       return '0x6feb2EF9631649fE6e8B676D6c606410f2e1dbb7'
     default:
       return '0x000000000022D473030F116dDEE9F6B43aC78BA3'
